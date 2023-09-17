@@ -155,3 +155,39 @@ button {
     flex-basis: 200px;
     color: black;
 }
+
+.fourth {
+    background-color: rgb(53, 92, 163);
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 150px 80px 150px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+    width: 1000px;
+    color: white;
+    border-radius: 5px;
+}
+.fourth-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-header {
+    font-weight: 900;
+    font-size: 18px;
+    margin: 48px 0 0 0;
+}
+
+.fourth-subtext {
+    margin: 0 0 40px 0;
+}
+
+.fourth-button {
+    align-self: center;
+    padding: 5px 25px 5px 25px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+}
